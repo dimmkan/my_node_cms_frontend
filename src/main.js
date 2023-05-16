@@ -10,4 +10,5 @@ app.use(WaveUI, {
     grid: 24
   }
 });
+app.config.compilerOptions.whitespace = 'preserve';
 app.mount('#app');
